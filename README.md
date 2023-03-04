@@ -27,3 +27,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Demo
+
+https://psujan.github.io/vue-modal-demo/
