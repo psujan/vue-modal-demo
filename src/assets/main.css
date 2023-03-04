@@ -1,0 +1,30 @@
+@import "./base.css";
+
+/*Buttons*/
+.btn {
+  color: var(--clr-white);
+  background-color: var(--clr-theme);
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: var(--clr-theme-alt);
+}
+
+.btn-flat{
+  color:var(--clr-text);
+  background-color: var(--clr-white);
+}
+
+.btn-flat:hover{
+  background-color: var(--clr-gray-light);
+}
+
+/**/
+.box{
+  padding:1rem;
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-theme: #2792ef;
+  --clr-theme-alt: #1b75c4;
+  --clr-text: #171414;
+  --clr-gray-light: #f1f1f1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--clr-text);
+  background: var(--clr-white);
+  line-height: 1.6;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--clr-text);
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+/*Utility Classes*/
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+.row > * {
+  padding: 0 10px;
+}
+.flx{
+  display: flex !important;
+}
+.flx-center {
+  justify-content: center !important;
+}
+.flx-start{
+  justify-content: flex-start !important;
+}
+.flx-end{
+  justify-content: flex-end !important;
+}
+.flx-between{
+  justify-content: space-between !important;
+}
+.flx-align-start{
+  align-items: flex-start !important;
+}
+.flx-align-end{
+  align-items: flex-end !important;
+}
+.flx-align-baseline{
+  align-items: baseline !important;
+}
+.flx-align-center{
+  align-items: center !important;
+}
+.flx-grow-1{
+  flex-grow: 1 !important;
+}
